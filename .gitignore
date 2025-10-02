@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.sqlite3
+
+# Django
+db.sqlite3
+/static/
+/media/
+
+# Virtual Environment
+env/
+venv/
+/ENV/
+/.venv/
+
+# VS Code
+.vscode/
+
+# Migrations (optional if you want fresh setup each time)
+*/migrations/*
+!*/migrations/__init__.py
+
+# OS
+.DS_Store
+Thumbs.db
